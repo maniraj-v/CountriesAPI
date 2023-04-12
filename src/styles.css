@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Nunito+Sans:ital,wght@0,300;0,600;1,800&family=Poppins:wght@300;400&family=Rubik:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* outline: 2px solid #fff; */
+}
+
+:root {
+  --DarkBlue: hsl(209, 23%, 22%);
+  --VeryDarkBlue: hsl(207, 26%, 17%);
+  --VeryDarkBlue2: hsl(200, 15%, 8%);
+  --DarkGray: hsl(0, 0%, 52%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  color: var(--White);
+  background-color: var(--VeryDarkBlue);
+  font-family: "Nunito Sans", sans-serif;
+}
